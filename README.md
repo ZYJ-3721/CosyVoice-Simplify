@@ -6,11 +6,11 @@ cd CosyVoice-Simplify
 pip install -r requirements.txt
 python webui.py
 ```
-使用vllm加速
+**使用vllm加速**
 ```bash
 python webui.py --load_vllm True --gpu_memory_utilization 0.8
 ```
 ## 页面展示
-
-## 原项目
+![webui](/webui.jpg)
+## 原项目地址
 https://github.com/FunAudioLLM/CosyVoice
